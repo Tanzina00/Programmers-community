@@ -1,0 +1,432 @@
+         /* 
+        Theme Name:Personal Portfolio;
+        Author:Tanzina Akter;
+        Description:this is a theme like forum;
+        */
+
+
+/* ......................................................................... 
+           cover photo section css starts from here 
+......................................................................... */
+section{
+  padding: 0px;
+}
+
+#group_comment_style{
+
+border: 1px solid orange !important;
+width: 100%;
+margin-left: 0px;
+margin-top: 20px;
+
+}
+
+.cover-pic{
+  height:170px !important;
+  background: black !important;
+  width: 100%;
+}
+.cover-pic img{
+  height: 100%;
+  width:100%;
+}
+.coverbg {
+  width:100%;
+}
+.coverphoto .coverbg .row, .coverphoto .coverbg .row .col-md-12{
+padding: 0;
+}
+
+
+/* ......................................................................... 
+      cover photo section css ends from here 
+......................................................................... */
+
+/* ......................................................................... 
+            nav css starts from here 
+......................................................................... */
+.group-desc .group-name{
+  margin-bottom: 4px;
+}
+.group-desc .group-name h2 a,.group-desc .group-name span{
+  color: #fff;
+  }
+  .group-desc .group-name h2 a:hover{
+  color: #f90;
+  transition:2s;
+  }
+  .caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+.coverphoto{
+  position: relative;
+}
+.group-desc{
+  
+  position: absolute;
+      right: 40px;
+    left: 40px;
+  bottom: 0;
+  
+}
+.joined ul li button{
+ padding: 4px 13px;
+}
+.joined ul li {
+ margin-right: 7px;
+}
+.joined ul li .join{
+ background-color: #f90;
+ color: #fff;
+}
+.joined ul li .notification{
+  border-right:1px solid #fff;
+ background-color: #f90;
+ color: #fff;
+}
+.joined ul li .sidebtn{
+  background-color: #f90;
+ color: #fff;
+ border-left:1px solid #fff;
+}
+.joined ul li button:hover{
+  color: #fff;
+}
+/*......................................................................... 
+             nav css ends here 
+......................................................................... */
+
+
+/* ......................................................................... 
+            post css starts from here 
+......................................................................... */
+.post-section{
+  
+  background-color: #fff;
+
+}
+.post-bg{
+
+  padding-top: 40px;
+  background-color: #e9ebee;
+  padding-top: 20px;
+}
+.facebook-share-box {
+    width: 100%;
+}
+.facebook-share-box .share {
+    -webkit-transition: 0.1s ease-out height;
+    -moz-transition: 0.1s ease-out height;
+    -ms-transition: 0.1s ease-out height;
+    -o-transition: 0.1s ease-out height;
+    transition: 0.1s ease-out height;
+    clear: both;
+    background: white;
+    border: 2px solid #dddddd;
+    position: relative;
+}
+ 
+
+.share .panel ul {
+    border-bottom: .7px solid #dddddd;
+} 
+.facebook-share-box .post-types li a {
+    color: orange;
+    text-decoration: none;
+}
+ .facebook-share-box .post-types li a:hover {
+    color: black;
+    text-decoration: none;
+}
+.facebook-share-box .post-types li a.active {
+    color: #404040;
+}
+ 
+.facebook-share-box .post-types {
+    padding-left: 5px;
+}
+ 
+.facebook-share-box ul {
+    list-style: none;
+    margin-bottom: 9px;
+}
+ 
+.facebook-share-box .post-types li {
+    display: inline;
+    margin-right: 10px;
+}
+ 
+.message {
+    border-radius: 0;
+    border: none;
+}
+.panel {
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+}
+
+.panel-footer {
+    padding: 0 15px;
+}
+.post-btn input{
+    margin-right: 0px;
+    float: right;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    padding: 0px 22px;
+    vertical-align: middle;
+    margin-top: 3px;
+}
+.camera button {
+  background-color: transparent;
+  color: orange;
+  padding:0;
+  font-size: 20px;
+    margin-top: 7px;
+    vertical-align: middle;
+    border: none;
+    box-shadow: none;
+}
+.camera button:hover, .camera button:focus{
+  background-color: transparent;
+  color: grey;
+    vertical-align: middle;
+    border: none;
+    box-shadow: none;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.panel-body textarea,textarea:hover,.panel-body textarea:focus{
+  -webkit-box-shadow:none !important;
+     box-shadow: none !important;
+    /*-webkit-transition: border-color ease-in-out .15s,
+    -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;*/
+
+  border:1px solid orange;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+      margin-top: 5px;
+  color: orange;
+  font-size:22px;
+
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+/*......................................................................... 
+            post css ends here 
+......................................................................... */
+
+.addmember{
+  width:50%;
+   text-align:left;
+   float: left;
+   background-color: transparent;
+   border:none;
+}
+.members{
+  text-align:right;
+      margin-left: 0px;
+    width: 50%;
+    background-color: transparent;
+   border:none;
+}
+.memberbtn{
+  border-bottom:0.7px solid #f90;
+}
+.mem-num{
+ float: right;
+}
+.addmemberdesc {
+  padding-top:9px;
+}
+.addmemberdesc input{
+  width:100%;
+  padding:2px;
+  border:1px solid #ccc;
+}
+.addmemberdesc input:focus{
+  width:100%;
+  padding:2px;
+  border:1px solid #f90;
+}
+.img{
+  width:39.5px;
+  height: 40px;
+  float:left;
+  margin-right: 7px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.img img{
+  height:100%;
+  width:100%;
+}
+.more{
+  text-align: right;
+}
+.membersdes{
+  padding-top: 20px;
+}
+.user-post-section{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.user{
+padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #fff;
+}
+.user .user-pic{
+height:40px;
+width:35px;
+float:left;
+margin-right: 4px;
+margin-left: 10px;
+margin-top: 2px;
+}
+.user .user-pic img{
+width:100%;
+height:100%;
+}
+.userpost{
+  background-color: #fff;
+  border-bottom: 0.1px solid #CCF;
+  padding: 20px;
+}
+.user .username{
+color:#f90;
+}
+.comment{
+   border-top: none;
+   padding:3px 4px;
+   background-color: #fff;
+}
+
+.comment button{
+  background-color: transparent;
+ color: black;
+  border:none;
+  outline: none;
+}
+.comment button i{
+  color:grey;
+}
+.comment button:hover,.comment button:focus {
+  background-color: transparent;
+  color: black;
+   border:none;
+  outline: none;
+}
+.comments{
+  background-color: #f5f5f5;
+  padding:4px 0px;
+  display: none;
+}
+.comments .user{
+  background-color: transparent;
+  padding:0px;
+}
+.comments .user .user-pic{
+     height: 26px;
+    width: 25px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+.comments .user .username{
+  float:left;
+  margin-right: 12px;
+}
+.user-comment{
+      background-color: transparent;
+    
+    padding: 0;
+    
+
+}
+.comments .userpost{
+      border-bottom: 0px solid #CCF;
+}
+.comments{
+  padding: 4px 2px;
+   border-bottom: 0.7px solid #CCF;
+}
+.post{
+  box-shadow:0px 7px 5px -8px;
+  padding-left:0px;
+  padding-right: 0px;
+}
+.write .user .user-pic{
+     height: 36px;
+    width: 30px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    float: left;
+   
+}
+.write input{
+  width: 91%;
+  padding:4px;
+  border:.4px solid #ccc;
+}
+:focus {
+    outline: none;
+}
+
+
+            /* .........................................................................
+                             media queries starts from here
+                             ......................................................................... */
+ 
+ 
+
+@media (min-width: 375px) and (max-width:732px ){
+ 
+
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+
+}
+
+ @media (min-width: 320px) and (max-width: 740px){
+         
+}
+
+
+
+                      
+
+
+              /* .........................................................................
+                             media queries ends here
+                             ......................................................................... */

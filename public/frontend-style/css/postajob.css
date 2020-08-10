@@ -1,0 +1,328 @@
+html, body {
+    padding: 0px 0px;
+    background: transparent;
+    margin: 0 auto;
+}
+form { margin: 0px 10px; }
+
+h2 {
+ font-family: "Guardian Egyptian Text",Georgia,serif;
+    color: #f90;
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 10px;
+   
+}
+
+.panel-primary {
+        width: 70%;
+    margin: 0 auto;
+    background-color: transparent;
+}
+.panel-primary .title{
+    text-align: center;
+    padding-bottom: 1px;
+}
+.panel-body{
+  border-color: #f90;
+    background-color: #eeeeee;
+  
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { 
+  float: left;
+   }
+
+.right {
+ float: right; 
+}
+.form-group{
+  margin-bottom: 10px;
+  width:100%; 
+}
+.form-content{
+    padding: 25px 0;
+}
+.btn-info{
+   display: block;
+    margin: auto 0 auto auto;
+    background-color: #f90;
+    margin-top: 24px;
+    padding: 8px;
+    font-size: 19px;
+  }
+  .btn-info:hover {
+    background-color:#ffffff; 
+    color: #f90;
+    border: 1px solid #f90;
+  }
+  .form-content p a{
+    color: #f90;
+}
+input[type=text] {
+        width: 60%;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: white;
+    height: 40px;
+}
+.progress {
+    height: 6px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+.progress-bar{
+  width: 20%;
+}
+
+#feedback {
+ font-size: 1.4em; 
+}
+  #selectable .ui-selecting,#selectable2 .ui-selecting {
+   background: #ffffff; 
+   border:1px solid #f90;
+   color:#f90; 
+ }
+  #selectable .ui-selected ,#selectable2 .ui-selected{
+   background: #f90; 
+   color: white; 
+ }
+  #selectable{
+   list-style-type: none;
+    margin: 0;
+     padding: 0;
+     width: 60%; 
+ } 
+ #selectable2 {
+   list-style-type: none;
+   
+ }
+ .ui-widget-content {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #333333;
+    width: 175px;
+    text-align: center;
+    float: left;
+    padding: 11px;
+    border: 1px solid #f90;
+    margin-right: 16px;
+    margin-top: 13px;
+        margin-bottom: 20px;
+}
+
+ .checkbox label, .radio label {
+    padding: 10px 8px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: #f90;
+    color: white;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #ffffff;
+    border: 2px solid #f90;
+    color: #f90;
+    padding: 4px 15px;
+    border-radius: 6px;
+}
+.nav-tabs>li>a, .nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    background-color: #f90;
+    border-top: 2px solid #f90;
+    color: #f5f5f5;
+    padding: 4px 15px;
+    border-radius: 6px;
+}
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+        float: left;
+}
+.form-control {
+    display: block;
+    width: 85% !important;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.add_field_button{
+color:blue;
+    margin-bottom: 10px;
+    display: block;
+}
+.remove_field i{
+      font-size: 30px;
+    color: #f90;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.second-item .btn-info {
+    display: block;
+    margin: auto 0 auto auto;
+    background-color: #f90;
+    padding: 8px 36px;
+    margin-top: 60px;
+}
+
+.input-group .form-control{
+  width: 59%;
+}
+.salary-range .input-group{
+  width:35%;
+  float:left;
+}
+.salary-range .srange{
+  margin-right: 20px;
+}
+
+.salary-range .input-group .form-control{
+  width: 100%;
+}
+.salary-range label {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.one-range label,.tab-pane label{
+      width: 100%;
+    text-align: left;
+}
+.one-range .input-group{
+      float: left;
+   width: 55%;
+    margin-right: 20px;
+}
+.one-range .input-group .form-control{
+    width: 100%;
+}
+.one-range select{
+   width: 23%;
+}
+.salary-range select{
+      width: 23%; 
+}
+.salary-range{
+  display:none;
+}
+.third-item .form-group {
+    margin-bottom: 18px;
+    width: 100%;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+    border: none;
+}
+.e-label{
+  text-align: left;
+    width: 100%;
+    padding-bottom: 12px;
+}
+.form-inline .first-input{
+           width: 35%;
+}
+.form-inline .second-input{
+     width: 48%;
+}
+#preview-one {
+    background-color: #f90;
+    color: white;
+    margin-top: 0;
+}
+.form-inline p{
+
+}
+.form-inline p i{
+    font-size: 23px;
+    color: grey;
+    margin-right: 4px;
+}
+.form-inline p b{
+font-size: 15px;
+    margin-right: 4px;
+}
+.form-inline p .add{
+    float: right;
+    color: #f90;
+    margin-top: 6px;
+}
+.form-inline p .add i{
+    color: #f90;
+    font-size: 16px;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-top: 7px;
+}
+.form-inline .control-label {
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.remove i {
+       font-size: 24px;
+    color: rgba(31, 30, 29, 0.57);
+    margin-left: 10px;
+}
+.border{
+     padding: 20px 15px;
+    background-color: #ffffff;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+
+}
+.top-border {
+    border: 1px solid #ccc;
+    padding: 19px 20px;
+        margin-bottom: 15px;
+}
+.criteria{
+  margin-bottom: 20px;
+}
+.edu-input{
+      width: 83%;
+}
+.lo-input{
+      width: 95%;
+}
+.second-item,.third-item,.fourth-item,.fifth-item,.education,.locations{
+  display: none;
+}
+.back{
+ float: left;
+    background-color: #f90;
+    color: #f5f5f5;
+    padding: 3px 8px;
+    position: absolute;
+    margin: 0;
+    margin-top: 13px;
+    left: 0;
+}
+.form-group{
+  position: relative;
+}
+.j-title,.j-company,.j-location{
+      font-size: 23px;
+    font-weight: normal;
+    color: #23272b;
+    padding-bottom: 10px;
+}

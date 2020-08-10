@@ -1,0 +1,223 @@
+.body{
+    font:inherit;
+    font-family: "Guardian Egyptian Text",Georgia,serif;
+}
+.detail-section {
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.job ul{
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20px;
+}
+.job ul li{
+     display: list-item;
+    padding-bottom: 5px;
+    font: inherit;
+    font-size: 16px;
+}
+.job p{
+    text-align: justify;
+    font: inherit;
+    font-size: 15px !important;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.attach a{
+        color: #f90;
+}
+.job h4{
+        text-shadow: 0px 0px 1px;
+}
+.job-content .btn {
+    background-color: white;
+    border: 1px solid #f90;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+.job-btns .btn {
+    padding: 0px 12px;
+}
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #f90;
+    content: "/\00a0";
+    content: "\007C";
+    font-size: 19px;
+}
+.bottom-apply{
+    display: block;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 3px;
+    width: 63px;
+    color: white;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    list-style: none;
+    border-radius: 4px;
+}
+.breadcrumb .btn i{
+    color:#ffffff;
+}
+.breadcrumb .btn:hover i{
+    color:#f90;
+}
+.breadcrumb .btn{
+     background-color:  #f90;
+     text-decoration: none;
+     color:#ffffff;
+}
+.breadcrumb .btn:hover{
+     background-color:  #ffffff;
+     text-decoration: none;
+     transition: .9s;
+     color: #f90;
+}
+.left-sidebar{
+
+}
+.left-sidebar .title{
+
+}
+.left-sidebar .detail{
+      background-color: #eeeeee;
+    padding: 33px 2px;
+    font: inherit;
+    color: #707070;
+    font-size: 17px;
+}
+.left-sidebar .detail p{
+    
+}
+.left-sidebar .detail p a{
+    color: #f90;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 14px;
+}
+.title h3{
+    font-family: "Guardian Egyptian Text",Georgia,serif;
+    color: #f90;
+    font-weight: 500;
+
+}
+.details-job {
+   background: transparent;
+    padding: 7px 0;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+.job-content {
+    border-right: 0px dotted #0056a1;
+    padding: 0 50px;
+}
+.modal-body {
+    position: relative;
+    padding: 15px;
+    padding-top: 2px;
+}
+.pre-text{
+        font: inherit;
+    padding-bottom: 10px;
+}
+form {
+    background-color: transparent;
+    padding: 7px 0;
+    color: black;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+    background-color: rgba(204, 204, 204, 0.05);
+    background-image: none;
+    border: 1px solid #f90;
+    border-radius: 28px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.bottom-border{
+    border-bottom: 1px dotted #f90;
+    /*padding-bottom: 22px;*/
+}
+.bottom-border h3{
+ margin: 20px 0px 12px 0px;
+}
+input[type=file] {
+    display: block;
+    border: 1px solid #f90;
+    width: 100%;
+    padding: 6px 15px;
+    border-radius: 29px;
+}
+.help-block {
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    color: black;
+}
+.modal-body .btn-default{
+    display: inline-block;
+    margin: 0 auto;
+    width: 110px;
+    padding: 4px;
+    background-color: #f90;
+    color: white;
+}
+.modal-body p a{
+     color:#f90;
+}
+textarea.form-control {
+    height: auto;
+    border-radius: 12px;
+}
+.terms{
+    color: #555;
+    font: inherit;
+    margin-bottom: 20px;
+}
+form p a{
+    color:#f90;
+}
+.fname{
+width:50%;
+float:left;
+}
+.lname{
+    float:left;
+       width: 49%;
+    margin-left: 5px;
+}
+.modal-body .btn-default-e {
+   padding: 7px 35px;
+    background-color: #f90;
+    color: white;
+    font-size: 17px;
+    margin-right: 0;
+    display: block;
+    margin: 0 auto;
+}
+.modal-body {
+    position: relative;
+    padding: 15px 40px;
+    padding-top: 2px;
+}

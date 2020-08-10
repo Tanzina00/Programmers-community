@@ -1,0 +1,189 @@
+body{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size:14px;
+}
+.mid-nav{
+background-color:#f5f1e9;
+opacity: 0.3;
+height: 100px;
+}
+.top-second-nav {
+    border-bottom: 0px solid #ccc;
+    background-color: rgb(238, 238, 238);
+    padding: 0px;
+}
+.nav>li>a {
+       padding:15px 15px;
+    color: #f90;
+    font-size: 1.4em;
+    font-weight: 700;
+    
+}
+.navbar-brand {
+	color: #f90;
+	 font-size: 1.9em;
+    font-weight: 900;
+    padding: 12px 10px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none;
+    color: #f90;
+}
+.nav>li>a:hover,.nav>li>a:focus {
+     
+    font-size: 1.4em;
+    font-weight: 900;
+    border-bottom: 0px solid #f90;
+    text-decoration: underline;
+}
+.sidebar-nav .nav>li>a {
+    padding-top: 9px;
+    color: #777;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+form{
+	background-color: #eee;
+	    padding: 12px 0;
+}
+.sidebar-nav .navbar-default {
+    background-color: #eee;
+    border: none;
+}
+.sidebar-nav .navbar-nav>li {
+    float: left;
+    text-align: left;
+    width: 100%;
+    border-top: 2px solid #fff;
+    padding: 6px 0;
+}
+.sidebar-nav .nav>li>a:focus, .sidebar-nav .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 0px solid #f90;
+}
+.sidebar-nav .caret{
+	width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 11px solid #777;
+    margin-right: 3px;
+}
+.sidebar-nav .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 7px 0px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f90;
+    border-color: #f90;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f90;
+    border-color: #204d74;
+}
+.btn-block {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 4px 0px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 100px;
+}
+.featured-job {
+    background: #F5F1E9;
+    box-shadow: 0px 0px 1px #aaa;
+border: 1px solid #ddd!important;
+    padding: 7px 0;
+    position: relative;
+    padding-bottom: 10px;
+        margin-bottom: 12px;
+}
+.featured-job h3 a{
+	color: #f90;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+.title{
+	    margin-bottom: 10px;
+}
+
+.featured-job p{
+line-height: 20px;
+}
+.featured-job span{
+	font-size: 15px;
+    font-style: bold;
+    color: #f90;
+    font-weight: 700;
+}
+.save{
+	    position: absolute;
+    bottom: 30%;
+    right: 8%;
+}
+.deadline{
+	position: absolute;
+	bottom: 6px;
+	right:4%;
+	font-size: 14px;
+}
+.deadline span{
+	font-size: 14px;
+    font-weight: 700; 
+}
+.save i{
+    font-size: 63px;
+    color: #f90;
+    font-weight:500; 
+}
+.save p{
+	    text-align: center;
+    color: #f90;
+    font-size: 23px;
+}
+.job-content {
+	border-right:1px dotted #0056a1; 
+	    padding: 0 50px;
+}
+textarea, input {
+	font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+label{
+	    text-align: center;
+    color: #777;
+    font-size: 17pxs;
+}
+.job-content .btn{
+	    background-color: white;
+    border: 1px solid #f90;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+.job-content .btn a{
+	 padding:0;
+	 text-decoration: none;
+}
+.the{
+color:black;
+font-size:70px;
+}
+.after-the{
+color:#0056a1;
+font-size:70px;
+}

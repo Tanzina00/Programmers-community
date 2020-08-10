@@ -1,0 +1,56 @@
+
+form { margin: 0px 10px; }
+
+h2 {
+ font-family: "Guardian Egyptian Text",Georgia,serif;
+    color: #f90;
+    font-weight: 500;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.panel-primary {
+    border-color: #f90;
+    background-color: #eeeeee;
+    width: 35%;
+    margin: 0 auto;
+}
+
+.divider {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.divider hr {
+  margin: 7px 0px;
+  width: 35%;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+.form-group{
+  margin-bottom: 10px;
+}
+.form-content{
+    padding: 25px 0;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#f90; 
+  }
+  .btn-block:hover {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color:#ffffff; 
+    color: #f90;
+    border: 1px solid #f90;
+  }
+  .form-content p a{
+    color: #f90;
+}

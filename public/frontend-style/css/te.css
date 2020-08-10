@@ -1,0 +1,29 @@
+
+.testbutton {
+	margin-bottom:30px;
+	background:#3399FF;
+	padding:6px 25px;
+	border:#003F81 1px solid;
+	color:#FFF;
+	font-size:22px;
+	border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+	box-shadow:inset 0 5px 5px #67B3FF; -webkit-box-shadow:inset 0 5px 5px #67B3FF; -moz-box-shadow:inset 0 5px 5px #67B3FF
+}
+.testbutton:hover {
+	background:#198CFF;
+	cursor:pointer
+}
+
+
+.jqte-test {
+	display:block;
+	margin:0 0 10px;
+	padding:6px;
+	width:95%;
+	background:#FFF;
+	border:#AAA 1px solid;
+	font-size:13px;
+}
+textarea.jqte-test, div.jqte-test, span.jqte-test {
+	min-height:100px;
+}

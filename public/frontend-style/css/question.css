@@ -1,0 +1,273 @@
+         /* 
+        Theme Name:Personal Portfolio;
+        Author:Tanzina Akter;
+        Description:this is a theme like forum;
+        */
+
+
+/* ......................................................................... 
+            feature section css starts from here 
+......................................................................... */
+.featured-question{
+  padding:4px 0;
+}
+.views-number,.comments-number{
+  margin-top:4px;
+}
+
+.feature-section .nav .navbar-right ul li{
+padding: 4px;
+margin-right: 9px;
+}
+.feature-section .nav .navbar-right ul li:hover{
+background-color:#f90;
+transition: 0.4s; 
+}
+.feature-section .nav .navbar-right ul li a:hover{
+background-color:#f90;
+text-decoration: none;
+color:#fff;
+transition: 0.7s; 
+}
+.feature-section .nav .navbar-left ul li{
+background-color:#f90;
+color:#fff;
+padding:0 4px;
+border:2px solid #f90;
+}
+.feature-section .nav .navbar-left ul li a{
+
+color:#fff;
+}
+.feature-section .nav .navbar-left ul li:hover{
+background-color:#fff;
+text-decoration: none;
+border:2px solid #f90;
+color:#f90;
+transition: 0.7s;
+}
+.feature-section .nav .navbar-left ul li a:hover{
+transition: 0.7s;
+text-decoration: none;
+color:#f90;
+}
+.feature-section .nav .navbar-left ul,.feature-section .second-nav .navbar-left ul{
+  padding-left: 0px;
+  
+
+}
+.feature-section .second-nav .navbar-left ul{
+ margin-top:15px;
+    font-weight: normal;
+    color: rgb(128, 128, 128);
+    background-color: rgb(255, 248, 223);
+    
+
+}
+.feature-section .second-nav .navbar-left ul li{
+  background-color:transparent;
+  color: rgb(128, 128, 128);
+  border: none;
+  padding: 9px 7px;
+ 
+}
+.feature-section .second-nav .navbar-left ul li a{
+  color: rgb(128, 128, 128);
+ 
+}
+.feature-section .second-nav .navbar-left ul li:hover{
+      
+  background-color:#f90;
+  color: #fff;
+  border: none;
+  text-decoration: none;
+ 
+}
+.feature-section .second-nav .navbar-left ul li a:hover
+{
+  color: #fff;
+  text-decoration: none; 
+}
+.feature-section .second-nav .navbar-left ul li:focus
+{
+  background-color:#f90;
+}
+.feature-section .second-nav .navbar-left ul li a:focus
+{
+  color: #f90;
+  text-decoration: none; 
+}
+.feature-section .second-nav .navbar-left ul li a:active{
+  color: #fff;
+  text-decoration: none; 
+}
+.second-nav{
+  padding-top:20px;
+  padding-bottom: 9px;
+}
+.feature-section .second-nav .navbar-right ul li{
+  margin-right: 2px;
+}
+.feature-section .second-nav .navbar-right ul li:hover,.feature-section .second-nav .navbar-right ul li a:hover{
+  background-color: transparent;
+  color: #f90;
+  text-decoration: none;
+}
+
+
+
+
+/* ......................................................................... 
+            feature section css ends from here 
+......................................................................... */
+
+/* ......................................................................... 
+            filter css starts from here 
+......................................................................... */
+  .filters .dropdown .dropdown-menu{
+        margin-top: -4px;
+    margin-right: 1px;
+  }
+  .filter ul {
+    border:2px solid #f90;
+    padding-left:0;
+    padding-top: 0;
+  }
+  .filter ul li{
+    display:table;
+    padding-top: 7px;
+    padding-bottom:  7px;
+    border-bottom: 2px solid #f5f5f5;
+    
+    width:100%;
+  }
+   .filter ul li:hover{
+   background-color: #f5f5f5;
+  }
+  .filter ul li a{
+   text-decoration: none;
+     font-size:14px;
+     padding-left: 4px; 
+
+  }
+  .filter ul li a:hover{
+   text-decoration: none;
+    color:#686868;
+    transition: 2s;
+     
+  }
+   .filter  button{
+    background-color:#f90;
+    color:#fff;
+     width: 100%;
+    padding-top: 4px;
+  }
+  .filter  button:hover{     
+    color:#686868;
+      }
+  .filter .button{
+        border-radius:0px;
+  }
+.categories{
+  margin-top: 135px;
+}
+.categories ul li{
+  position: relative;
+}
+.categories ul li span{
+position: absolute;
+right:4px;
+background-color:#f90;
+border-radius: 4px;
+color: black; 
+padding: 0px 10px;
+}
+
+.categoriesfilter ul li{
+  position: relative;
+}
+.categoriesfilter ul li span{
+position: absolute;
+right:4px;
+background-color:#f90;
+border-radius: 4px;
+color: black; 
+padding: 0px 10px;
+}
+
+
+.filters li .button {
+    padding: 5px 43px;
+    border: 2px solid #f90;
+    right: 0;
+}
+
+
+/*......................................................................... 
+             filter css ends here 
+......................................................................... */
+
+
+
+
+
+            /* .........................................................................
+                             media queries starts from here
+                             ......................................................................... */
+ @media (min-width: 765px) {
+
+   
+  }
+   
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  section{
+    padding-left: 15px;
+  }
+  
+ 
+
+@media (min-width: 375px) and (max-width:732px ){
+ 
+
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+
+}
+
+ @media (min-width: 320px) and (max-width: 740px){
+         
+}
+
+
+
+                      
+
+
+              /* .........................................................................
+                             media queries ends here
+                             ......................................................................... */
