@@ -9,4 +9,5 @@ This web application was built on PHP Laravel framework. The functionality of th
 - article posting
 - Login or registration required before any action
 
+---Enjoy---
 
